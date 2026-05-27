@@ -2,6 +2,8 @@
 
 [中文 README](README_zh.md)
 
+![CTR-SINK] (fig/main_figure_sink_61_01.png)
+
 This repository is a self-contained open-source implementation of CTR-Sink for
 language-model-based click-through rate prediction. It removes all internal
 ALPS, ODPS, Aistudio, Pangu, NAS from the original
