@@ -1,4 +1,4 @@
-# CTR-Sink
+# CTR-Sink [KDD 2026]
 
 [中文 README](README_zh.md)
 
