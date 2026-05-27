@@ -1,4 +1,4 @@
-# CTR-Sink [KDD 2026]
+# CTR-Sink: Attention Sink for Language Models in Click-Through Rate Prediction [KDD 2026]
 
 [中文 README](README_zh.md)
 
