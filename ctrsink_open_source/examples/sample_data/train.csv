@@ -1,5 +1,0 @@
-positive_movie_titles,negative_movie_titles,title,genres,click_label
-"['Toy Story (1995)', 'Jumanji (1995)', 'Heat (1995)', 'Sabrina (1995)']","['Casino (1995)', 'Nixon (1995)', 'Cutthroat Island (1995)']","Toy Story (1995)","Animation|Children|Comedy",1
-"['GoldenEye (1995)', 'Get Shorty (1995)', 'Babe (1995)']","['Dracula: Dead and Loving It (1995)', 'Fair Game (1995)']","Heat (1995)","Action|Crime|Thriller",1
-"['Sense and Sensibility (1995)', 'Persuasion (1995)', 'Leaving Las Vegas (1995)']","['Mortal Kombat (1995)', 'Judge Dredd (1995)']","Nixon (1995)","Drama",0
-"['Apollo 13 (1995)', 'Braveheart (1995)', 'Usual Suspects, The (1995)']","['Showgirls (1995)', 'Bio-Dome (1996)']","Casino (1995)","Crime|Drama",0
