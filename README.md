@@ -95,45 +95,6 @@ python scripts/train.py \
   --output_dir outputs/qwen2_ctrsink_inter_sink
 ```
 
-Qwen2-7B CTR-Sink:
-
-```bash
-python scripts/train.py \
-  --config configs/qwen2_7b_movielens_ctrsink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen2_7b_ctrsink
-```
-
-Qwen2-7B CTR-Sink with inter-sink attention enhancement:
-
-```bash
-python scripts/train.py \
-  --config configs/qwen2_7b_movielens_ctrsink_inter_sink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen2_7b_ctrsink_inter_sink
-```
-
-Qwen3-8B CTR-Sink:
-
-```bash
-python scripts/train.py \
-  --config configs/qwen3_8b_movielens_ctrsink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen3_8b_ctrsink
-```
-
-Qwen3-8B CTR-Sink with inter-sink attention enhancement:
-
-```bash
-python scripts/train.py \
-  --config configs/qwen3_8b_movielens_ctrsink_inter_sink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen3_8b_ctrsink_inter_sink
-```
 
 RoBERTa CTR-Sink with inter-sink attention enhancement:
 
