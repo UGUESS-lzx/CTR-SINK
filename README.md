@@ -113,7 +113,7 @@ results, prepare the full MovieLens or KuaiRec splits and pass their paths to
 ## Important Defaults
 
 - `use_split_layer = true`
-- MovieLens prompts follow the original code by default: `用户打高分的电影序列为:`, `用户打低分的电影序列为:`, `电影名称为:`, and `电影类型为:`.
+- MovieLens prompts follow the original code by default: `用户打高分的电影序列为:`, `用户打低分的电影序列为:`, `电影名称为:`.
 - `use_split_layer` follows the Singleton CTR (SCTR) and BAHE setting to reduce training cost. In our tests, it does not have a large impact on final performance, so it is enabled by default.
 - Qwen2-7B / Qwen3-8B: use LoRA, `model_dtype = bf16`, `precision = bf16`, gradient checkpointing, and a small per-device batch size.
 - Transformers version: use `transformers==4.29.2` for RoBERTa / BERT, `transformers==4.44.2` for Qwen2, and the latest stable Transformers for Qwen3.
