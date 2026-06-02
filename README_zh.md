@@ -402,3 +402,12 @@ RoBERTa CTR-Sink + inter-sink attention：
 ## 引用
 
 如果你使用本仓库，请引用 CTR-Sink 论文。
+
+```bash
+@article{li2025ctr,
+  title={CTR-Sink: Attention Sink for Language Models in Click-Through Rate Prediction},
+  author={Li, Zixuan and Geng, Binzong and Xiong, Jing and He, Yong and Hu, Yuxuan and Chen, Jian and Chen, Dingwei and Chang, Xiyu and Zhang, Liang and Mo, Linjian and others},
+  journal={arXiv preprint arXiv:2508.03668},
+  year={2025}
+}
+```
