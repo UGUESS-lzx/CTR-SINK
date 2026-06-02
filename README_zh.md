@@ -1,5 +1,7 @@
 # CTR-Sink
 
+![CTR-SINK](fig/main_figure_sink_61_01.png)
+
 本仓库是 CTR-Sink 的独立开源实现，用于基于语言模型的点击率预测
 （LM-based CTR prediction）。相比原始研究代码，本版本移除了内部训练平台、
 私有数据读取器、私有模型保存逻辑，保留论文方法中可复现、
