@@ -140,46 +140,6 @@ python scripts/train.py \
   --output_dir outputs/qwen2_ctrsink_inter_sink
 ```
 
-训练 Qwen2-7B 版本：
-
-```bash
-python scripts/train.py \
-  --config configs/qwen2_7b_movielens_ctrsink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen2_7b_ctrsink
-```
-
-训练带 inter-sink attention 的 Qwen2-7B 版本：
-
-```bash
-python scripts/train.py \
-  --config configs/qwen2_7b_movielens_ctrsink_inter_sink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen2_7b_ctrsink_inter_sink
-```
-
-训练 Qwen3-8B 版本：
-
-```bash
-python scripts/train.py \
-  --config configs/qwen3_8b_movielens_ctrsink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen3_8b_ctrsink
-```
-
-训练带 inter-sink attention 的 Qwen3-8B 版本：
-
-```bash
-python scripts/train.py \
-  --config configs/qwen3_8b_movielens_ctrsink_inter_sink.json \
-  --train_file examples/sample_data/train.csv \
-  --valid_file examples/sample_data/valid.csv \
-  --output_dir outputs/qwen3_8b_ctrsink_inter_sink
-```
-
 训练 RoBERTa 版本：
 
 ```bash
