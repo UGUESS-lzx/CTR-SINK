@@ -83,7 +83,7 @@ positive_movie_titles,negative_movie_titles,title,genres,click_label
 | `positive_movie_titles` | 用户历史正反馈物品序列 |
 | `negative_movie_titles` | 用户历史负反馈物品序列 |
 | `title` | 当前候选物品标题 |
-| `genres` | 当前候选物品类别 |
+| `genres` | 当前候选物品类别（代码中没有用到） |
 | `click_label` | CTR 标签，通常为 `0` 或 `1` |
 
 行为序列可以写成逗号分隔字符串：
@@ -260,26 +260,6 @@ python scripts/train.py \
 原始代码是内部 ALPS 训练任务提交脚本。其中包含大量内部环境参数，例如队列、镜像、ODPS 表、
 NAS 路径和私有保存逻辑。这些内容不适合进入开源仓库。
 
-本开源版本保留了论文复现需要的公开参数：
-
-- `backbone`
-- `tuning_method`
-- `use_split_layer`
-- `use_retrieval`
-- `use_sink`
-- `sink_signal`
-- `use_inter_sink_attention`
-- `two_stage`
-- `stage1_epochs`
-- `stage2_epochs`
-- `batch_size`
-- `lr`
-- `warmup_ratio`
-- token 长度和行为数量相关参数
-
-
-被移除的参数主要服务于内部平台或私有工程流程，不是论文方法的
-必要组成部分。
 
 ## 推荐实验配置
 
