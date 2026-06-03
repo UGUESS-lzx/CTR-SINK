@@ -304,51 +304,6 @@ Qwen2 CTR-Sink + inter-sink attention：
 }
 ```
 
-Qwen2-7B CTR-Sink：
-
-```json
-{
-  "backbone": "Qwen/Qwen2-7B",
-  "tuning_method": "lora",
-  "model_dtype": "bf16",
-  "use_split_layer": true,
-  "use_retrieval": true,
-  "use_sink": true,
-  "sink_signal": "temporal",
-  "two_stage": true,
-  "stage1_epochs": 3,
-  "stage2_epochs": 3,
-  "batch_size": 1,
-  "eval_batch_size": 1,
-  "gradient_accumulation_steps": 16,
-  "lr": 1e-5,
-  "precision": "bf16",
-  "gradient_checkpointing": true
-}
-```
-
-Qwen3-8B CTR-Sink：
-
-```json
-{
-  "backbone": "Qwen/Qwen3-8B",
-  "tuning_method": "lora",
-  "model_dtype": "bf16",
-  "use_split_layer": true,
-  "use_retrieval": true,
-  "use_sink": true,
-  "sink_signal": "temporal",
-  "two_stage": true,
-  "stage1_epochs": 3,
-  "stage2_epochs": 3,
-  "batch_size": 1,
-  "eval_batch_size": 1,
-  "gradient_accumulation_steps": 16,
-  "lr": 1e-5,
-  "precision": "bf16",
-  "gradient_checkpointing": true
-}
-```
 
 RoBERTa CTR-Sink：
 
